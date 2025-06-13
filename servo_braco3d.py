@@ -1,7 +1,7 @@
 from pyfirmata import Arduino,SERVO
 import time
 
-board = Arduino('COM4')  # Adjust the port as necessary
+board = Arduino('COM5')  # Adjust the port as necessary
 pin1 = 10
 pin2 = 9
 pin3 = 8

@@ -12,7 +12,7 @@ mp_drawing = mp.solutions.drawing_utils
 ALTURA, LARGURA = 480, 640
 CÉLULA = 100
 OFFSET_X, OFFSET_Y = 100, 50
-TEMPO_ENTRE_JOGADAS = 1.0  # segundos
+TEMPO_ENTRE_JOGADAS = 3.0  # segundos
 
 # Estado do jogo
 tabuleiro = [["" for _ in range(3)] for _ in range(3)]
